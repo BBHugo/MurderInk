@@ -1,0 +1,15 @@
+*{
+    
+}
+
+section{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+div {
+    width: 11rem;
+    height: 200px;
+    border: 1px solid black;
+}
