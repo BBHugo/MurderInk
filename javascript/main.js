@@ -1,5 +1,5 @@
-document.querySelector(".test").addEventListener('click', tester)
+// document.querySelector(".test").addEventListener('click', tester)
 
-function tester(){
-    alert('this works')
-}
+// function tester(){
+//     alert('this works')
+// }

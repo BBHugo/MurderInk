@@ -1,4 +1,4 @@
-*{
+/* *{
     
 }
 
@@ -12,4 +12,63 @@ div {
     width: 11rem;
     height: 200px;
     border: 1px solid black;
+} */
+
+*{
+    /* border: 1px solid purple; */
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: black;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainBox{
+    height: 900px;
+    margin-top: 0;
+    background: lightblue;
+    justify-content: center;
+}
+
+nav {
+    background: black;
+    width: 85%;
+    /* border: 1px solid red; */
+    height: 70px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 0;
+    color: white;
+
+}
+
+ul{
+    width: 100%;
+    /* border: 1px solid orange; */
+    /* flex-grow: 1; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li{
+    flex-basis: 25%;
+    font-size: 2rem;
+}
+
+.logoGif{
+    width: 50%;
+    height: 200px;
+    margin-bottom: 600px;
+    border-radius: 10px;
+    border: 1px solid orange;
 }
