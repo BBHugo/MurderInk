@@ -32,7 +32,7 @@ body{
     flex-wrap: wrap;
 }
 
-.mainBox{
+.mainBox , .bottomBox{
     height: 600px;
     margin-top: 0;
     background: lightblue;
@@ -66,9 +66,39 @@ li{
 }
 
 .logoGif{
-    width: 75%;
+    flex-basis: 75%;
     height: 400px;
     margin-bottom: 100px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid orange;
+    max-width: 600px;
+    
+}
+
+.bottomBox {
+    border: 1px solid pink;
+}
+
+h2{
+    font-size: 3rem;
+    display: block;
+    border: 1px solid black;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    margin: 0
+}
+
+.teamMembers{
+    font-size: 2rem;
+    border: 1px solid magenta;
+    height: 10%;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.botLi{
+    border: 1px solid red;
+    flex-basis: auto;
+    flex-grow: 1;
 }
