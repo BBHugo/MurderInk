@@ -1,7 +1,6 @@
-/* *{
-    
+*{
+    border: 1px solid red;
 }
-
 section{
     display: flex;
     border: 1px solid red;
@@ -12,7 +11,7 @@ div {
     width: 11rem;
     height: 200px;
     border: 1px solid black;
-} */
+}
 
 *{
     /* border: 1px solid purple; */
@@ -50,25 +49,24 @@ nav {
 
 }
 
-ul{
+.topList{
     width: 100%;
     /* border: 1px solid orange; */
     /* flex-grow: 1; */
-    list-style: none;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 li{
     flex-basis: 25%;
     font-size: 2rem;
+    list-style: none;
 }
 
 .logoGif{
     flex-basis: 75%;
     height: 400px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     border-radius: 20px;
     border: 1px solid orange;
     max-width: 600px;
@@ -77,28 +75,32 @@ li{
 
 .bottomBox {
     border: 1px solid pink;
+    align-items: ;
 }
 
 h2{
     font-size: 3rem;
     display: block;
-    border: 1px solid black;
     height: 10%;
-    width: 100%;
+    width: 99%;
     text-align: center;
     margin: 0
 }
 
 .teamMembers{
+    display: flex;
     font-size: 2rem;
     border: 1px solid magenta;
     height: 10%;
     width: 100%;
     margin-top: 5px;
+    align-items: flex-start;
 }
 
+.bottomList{
+    justify-content: flex-start;
+}
 .botLi{
     border: 1px solid red;
     flex-basis: auto;
-    flex-grow: 1;
 }
