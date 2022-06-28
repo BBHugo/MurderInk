@@ -1,4 +1,4 @@
-/* *{
+/* {
     
 }
 
@@ -12,10 +12,10 @@ div {
     width: 11rem;
     height: 200px;
     border: 1px solid black;
-} */
+}
 
 *{
-    /* border: 1px solid purple; */
+    /* border: 1px solid purple; 
     box-sizing: border-box;
 }
 
@@ -42,7 +42,7 @@ body{
 nav {
     background: black;
     width: 85%;
-    /* border: 1px solid red; */
+    /* border: 1px solid red; 
     height: 60px;
     border-radius: 0 0 10px 10px;
     margin-top: 0;
@@ -53,7 +53,7 @@ nav {
 ul{
     width: 100%;
     /* border: 1px solid orange; */
-    /* flex-grow: 1; */
+    /* flex-grow: 1; 
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -101,4 +101,15 @@ h2{
     border: 1px solid red;
     flex-basis: auto;
     flex-grow: 1;
+} */
+
+/* STARTING FROM SCRATCH HERE */
+
+
+body{
+    background: purple;
+}
+
+.mainbox{
+    background: 
 }
