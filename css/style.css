@@ -117,7 +117,7 @@ body{
     background: linear-gradient(rgb(0, 0, 0) 10%, rgb(44, 44, 44) 97%, rgb(67, 67, 67) 100%);
     width: 100%;
     border: 1px solid red;
-    height: 800px;
+    height: 600px;
     margin-top: 0;
     display: flex;
     flex-wrap: wrap;
@@ -157,4 +157,32 @@ img {
     align-self: flex-start;
     /*align-content: flex-start; /*What fixes height alignment issues with flex wrap */
     margin-top: 0;
+}
+
+.bottomBox{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+h2{
+    height: 30px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.teamMembers{
+    flex-basis: 100%;
+}
+
+ul{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.botLi{
+    flex-basis: 100%;
 }
