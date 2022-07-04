@@ -163,6 +163,8 @@ img {
  display: flex;
  justify-content: center;
  flex-wrap: wrap;
+ align-content: flex-start; /*Fixed the spacing issue from flex-wrap*/
+ height: 950px;
 }
 
 h2{
@@ -185,4 +187,12 @@ ul{
 
 .botLi{
     flex-basis: 100%;
+}
+
+iframe{
+    width: 400px;
+    height: 725px;
+    border: 10px solid black;
+    margin-top: 10px;
+    /*position property might help us in positioning this */
 }
