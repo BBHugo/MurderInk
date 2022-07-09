@@ -143,7 +143,8 @@ body{
     height: 40px;
     color: white;
     margin-top: 0;
-    flex-basis: 100%;
+    flex-basis: 90%;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .menu{
@@ -185,10 +186,15 @@ ul{
     list-style: none;
     padding-left: 0px;
     text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .botLi{
     flex-basis: 100%;
+    height: 10px;
+    padding-top: 1%;
+    padding-bottom: 2%;
 }
 
 iframe{
@@ -197,7 +203,7 @@ iframe{
     border: 10px solid black;
     margin-top: 10px;
     position: absolute;
-    top: 750px;
+    top: 770px;
     right: 20px;
     /*position property might help us in positioning this */
     border-radius: 20px;
