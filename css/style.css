@@ -109,12 +109,20 @@ h2{
     border: 1px solid white;
 }
 
+:root {
+    --ff-1: 'Oswald', sans-serif;
+}
+
 body{
     background: purple;
+    font-family: var(--ff-1);
 }
 
 .mainBox{
-    background: linear-gradient(rgb(0, 0, 0) 10%, rgb(44, 44, 44) 97%, rgb(67, 67, 67) 100%);
+    /* background: linear-gradient(rgb(0, 0, 0) 10%, rgb(44, 44, 44) 97%, rgb(67, 67, 67) 100%); */
+    /* background: 
+		repeating-radial-gradient(circle at 0 50%, rgb(163, 9, 9), rgb(180, 107, 107), rgb(226, 7, 7) 5%), 
+		radial-gradient(circle at 0 50%, rgb(199, 25, 25), rgb(218, 121, 121)); */
     width: 100%;
     border: 1px solid red;
     height: 600px;
@@ -123,6 +131,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start; /* What fixed the height spacing issue with flex wrap */
+    font-size: 1.25rem;
 }
 
 /* nav{
@@ -136,11 +145,11 @@ body{
 
 .topList{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style: none;
     align-items: center;
     border: 1px solid orange;
-    height: 40px;
+    height: 60px;
     color: white;
     margin-top: 0;
     flex-basis: 90%;
@@ -151,6 +160,7 @@ body{
     height: 20px;
     text-align: center;
     height: auto;
+    margin: 0px 40px;
 }
 
 img {
